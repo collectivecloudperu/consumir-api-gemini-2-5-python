@@ -3,7 +3,7 @@ from google.genai import types
 import os
 
 # Colocamos nuestra API KEY
-api_key = os.getenv("GEMINI_API_KEY") or ""
+api_key = "ACÁ TU API KEY DE GEMINI"
 
 # Crear cliente
 cliente = genai.Client(api_key=api_key)
@@ -15,3 +15,4 @@ response = cliente.models.generate_content(
 
 # Imprimimos la respuesta de Gemini 2.5
 print(response.text)
+
