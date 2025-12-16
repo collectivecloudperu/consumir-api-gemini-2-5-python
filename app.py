@@ -3,7 +3,8 @@ from google.genai import types
 import os
 
 # Colocamos nuestra API KEY
-api_key = "ACÁ TU API KEY DE GEMINI"
+GEMINI_API_KEY = "DFGDGEdfgggggggggggd54645645"
+api_key = "DFGDGEdfgggggggggggd54645645"
 
 # Crear cliente
 cliente = genai.Client(api_key=api_key)
